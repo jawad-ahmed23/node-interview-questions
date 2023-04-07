@@ -21,3 +21,7 @@ function callback(err, results) {
     // no error, perform standard callback handling
 }
 ```
+
+## 4. What is REPL? What purpose it is used for?
+
+REPL stands for (READ, EVAL, PRINT, LOOP). Node js comes with bundled REPL environment. This allows for the easy creation of CLI (Command Line Interface) applications.
