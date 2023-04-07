@@ -12,7 +12,7 @@ Since Node.js is by default a **single** thread application, it will run on a si
 Node.js core modules, as well as most of the community-published ones, follow a pattern whereby the first argument to any callback handler is an optional error object. If there is no error, the argument will be null or undefined.
 
 A typical callback handler could therefore perform error handling as follows:
-`
+```
 function callback(err, results) {
     // usually we'll check for the error before handling results
     if(err) {
@@ -20,4 +20,4 @@ function callback(err, results) {
     }
     // no error, perform standard callback handling
 }
-`
+```
